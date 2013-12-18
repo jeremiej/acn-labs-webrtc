@@ -120,6 +120,8 @@ var constraints = {
     }
 };
 
+console.log(constraints);
+
 navigator.getUserMedia = navigator.getUserMedia || navigator.webkitGetUserMedia || navigator.mozGetUserMedia;
 navigator.getUserMedia(constraints, handleUserMedia, handleUserMediaError);
 
