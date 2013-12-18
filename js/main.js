@@ -23,11 +23,9 @@ var room = location.pathname.substring(1);
 room = prompt('Enter room name:');
 if (room === '') {
   room = 'foo';
-} else {
-  //
 }
 
-var socket = io.connect();
+var socket = io.connect('http://sheltered-scrubland-7858.herokuapp.com'/+room);
 
 if (room !== '') {
   console.log('Create or join room', room);
