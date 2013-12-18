@@ -1,12 +1,16 @@
 /**
  * Created by techlabs on 18/12/2013.
  */
+
 var static = require('node-static');
 var http = require('http');
 var file = new(static.Server)();
+
+console.log('http server listening on %d', process.env.PORT);
+
 var app = http.createServer(function (req, res) {
     file.serve(req, res);
-}).listen(2013);
+}).listen(process.env.PORT);
 
 var io = require('socket.io').listen(app);
 io.sockets.on('connection', function (socket){
