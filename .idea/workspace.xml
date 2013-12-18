@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="350fcdcf-d054-4a61-bf03-2cc9e62f7bfe" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/main.js" afterPath="$PROJECT_DIR$/js/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web.js" afterPath="$PROJECT_DIR$/web.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="acn-labs-webrtc.iws" />
@@ -26,10 +26,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="web.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="web.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="34" selection-start="1195" selection-end="1195" vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="870">
+            <state line="13" column="0" selection-start="314" selection-end="314" vertical-scroll-proportion="0.25345623" vertical-offset="0" max-vertical-offset="930">
               <folding>
                 <element signature="e#0#45#0" expanded="false" />
               </folding>
@@ -46,10 +46,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="118" column="0" selection-start="3147" selection-end="3290" vertical-scroll-proportion="0.4608295" vertical-offset="1470" max-vertical-offset="5055">
+            <state line="118" column="0" selection-start="3147" selection-end="3290" vertical-scroll-proportion="0.0" vertical-offset="1470" max-vertical-offset="5055">
               <folding />
             </state>
           </provider>
@@ -75,8 +75,8 @@
       <list>
         <option value="$PROJECT_DIR$/Procfile.txt" />
         <option value="$PROJECT_DIR$/Procfile" />
-        <option value="$PROJECT_DIR$/web.js" />
         <option value="$PROJECT_DIR$/js/main.js" />
+        <option value="$PROJECT_DIR$/web.js" />
       </list>
     </option>
   </component>
@@ -226,7 +226,11 @@
       <created>1387373331207</created>
       <updated>1387373331207</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="maj">
+      <created>1387374584897</created>
+      <updated>1387374584897</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -261,7 +265,8 @@
       <TodoPanelSettings />
     </option>
     <MESSAGE value="retour a 2 personnes max" />
-    <option name="LAST_COMMIT_MESSAGE" value="retour a 2 personnes max" />
+    <MESSAGE value="maj" />
+    <option name="LAST_COMMIT_MESSAGE" value="maj" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -281,19 +286,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web.js">
+    <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="34" selection-start="1195" selection-end="1195" vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="870">
-          <folding>
-            <element signature="e#0#45#0" expanded="false" />
-          </folding>
+        <state line="118" column="0" selection-start="3147" selection-end="3290" vertical-scroll-proportion="0.0" vertical-offset="1470" max-vertical-offset="5055">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/main.js">
+    <entry file="file://$PROJECT_DIR$/web.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="118" column="0" selection-start="3147" selection-end="3290" vertical-scroll-proportion="0.4608295" vertical-offset="1470" max-vertical-offset="5055">
-          <folding />
+        <state line="13" column="0" selection-start="314" selection-end="314" vertical-scroll-proportion="0.25345623" vertical-offset="0" max-vertical-offset="930">
+          <folding>
+            <element signature="e#0#45#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
