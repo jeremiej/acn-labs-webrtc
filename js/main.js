@@ -20,8 +20,8 @@ var sdpConstraints = {'mandatory': {
 /////////////////////////////////////////////
 
 var room = location.pathname.substring(1);
+room = prompt('Enter room name:');
 if (room === '') {
-//  room = prompt('Enter room name:');
   room = 'foo';
 } else {
   //
@@ -110,7 +110,16 @@ function handleUserMediaError(error){
   console.log('navigator.getUserMedia error: ', error);
 }
 
-var constraints = {video: true};
+var constraints = {
+    "audio": true,
+    "video": {
+        "mandatory": {
+            "maxWidth": "320",
+            "maxHeight": "180"
+        }
+    }
+};
+
 navigator.getUserMedia = navigator.getUserMedia || navigator.webkitGetUserMedia || navigator.mozGetUserMedia;
 navigator.getUserMedia(constraints, handleUserMedia, handleUserMediaError);
 
