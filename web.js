@@ -13,10 +13,10 @@ var app = http.createServer(function (req, res) {
 }).listen(process.env.PORT);
 
 var io = require('socket.io').listen(app);
-io.configure(function () {
-    io.set("transports", ["xhr-polling"]);
-    io.set("polling duration", 10);
-});
+//io.configure(function () {
+//    io.set("transports", ["xhr-polling"]);
+//    io.set("polling duration", 10);
+//});
 io.sockets.on('connection', function (socket){
 
     function log(){
