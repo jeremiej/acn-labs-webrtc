@@ -165,11 +165,6 @@ function handleIceCandidate(event) {
   }
 }
 
-function handleRemoteStreamAdded(event) {
-  console.log('Remote stream added.');
-  remoteVideo.src = window.URL.createObjectURL(event.stream);
-  remoteStream = event.stream;
-}
 
 function handleCreateOfferError(event){
   console.log('createOffer() error: ', e);
