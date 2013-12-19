@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="350fcdcf-d054-4a61-bf03-2cc9e62f7bfe" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/conference.html" afterPath="$PROJECT_DIR$/conference.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index - recorderjs.html" afterPath="$PROJECT_DIR$/index - recorderjs.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web.js" afterPath="$PROJECT_DIR$/web.js" />
     </list>
     <ignored path="acn-labs-webrtc.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,25 +28,25 @@
       <file leaf-file-name="web.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="52" selection-start="938" selection-end="938" vertical-scroll-proportion="0.0" vertical-offset="264" max-vertical-offset="915">
+            <state line="12" column="26" selection-start="311" selection-end="311" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="915">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="10" selection-start="612" selection-end="612" vertical-scroll-proportion="-11.25" vertical-offset="0" max-vertical-offset="600">
+            <state line="18" column="10" selection-start="612" selection-end="612" vertical-scroll-proportion="0.430622" vertical-offset="0" max-vertical-offset="627">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="conference.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="conference.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/conference.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="120" column="35" selection-start="3764" selection-end="3764" vertical-scroll-proportion="0.95114005" vertical-offset="1216" max-vertical-offset="1920">
+            <state line="120" column="35" selection-start="3764" selection-end="3764" vertical-scroll-proportion="-24.333334" vertical-offset="1216" max-vertical-offset="1920">
               <folding />
             </state>
           </provider>
@@ -101,12 +100,12 @@
         <option value="$PROJECT_DIR$/Procfile.txt" />
         <option value="$PROJECT_DIR$/Procfile" />
         <option value="$PROJECT_DIR$/conf.html" />
-        <option value="$PROJECT_DIR$/web.js" />
         <option value="$PROJECT_DIR$/style.css" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/main.js" />
         <option value="$PROJECT_DIR$/index - recorderjs.html" />
         <option value="$PROJECT_DIR$/conference.html" />
+        <option value="$PROJECT_DIR$/web.js" />
       </list>
     </option>
   </component>
@@ -400,23 +399,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="52" selection-start="938" selection-end="938" vertical-scroll-proportion="0.0" vertical-offset="264" max-vertical-offset="915">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="27" column="0" selection-start="677" selection-end="677" vertical-scroll-proportion="-16.2" vertical-offset="0" max-vertical-offset="5265">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="10" selection-start="612" selection-end="612" vertical-scroll-proportion="-11.25" vertical-offset="0" max-vertical-offset="600">
           <folding />
         </state>
       </provider>
@@ -430,7 +415,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/conference.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="120" column="35" selection-start="3764" selection-end="3764" vertical-scroll-proportion="0.95114005" vertical-offset="1216" max-vertical-offset="1920">
+        <state line="120" column="35" selection-start="3764" selection-end="3764" vertical-scroll-proportion="-24.333334" vertical-offset="1216" max-vertical-offset="1920">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="26" selection-start="311" selection-end="311" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="915">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="10" selection-start="612" selection-end="612" vertical-scroll-proportion="0.430622" vertical-offset="0" max-vertical-offset="627">
           <folding />
         </state>
       </provider>
