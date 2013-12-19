@@ -1,0 +1,11 @@
+.conferenceNameForm {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -138px;
+}
+
+.openConference{
+    margin-left: 15px;
+}

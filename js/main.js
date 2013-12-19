@@ -19,8 +19,13 @@ var sdpConstraints = {'mandatory': {
 
 /////////////////////////////////////////////
 
-var room = location.pathname.substring(1);
-room = prompt('Enter room name:');
+var room = getURLParameter("r");
+function getURLParameter(name) {
+    return decodeURI(
+        (RegExp(name + '=' + '(.+?)(&|$)').exec(location.search)||[,null])[1]
+    );
+}
+
 if (room === '') {
   room = 'foo';
 }
