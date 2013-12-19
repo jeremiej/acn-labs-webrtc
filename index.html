@@ -19,7 +19,7 @@
     <body>
 
     <div class="conferenceNameForm">
-        <form class="navbar-form navbar-left" method="GET">
+        <form class="navbar-form navbar-left" method="GET" id="formRoom">
             <div class="form-group">
                 <input id="roomName" name="r" type="text" class="form-control" placeholder="Name the conference">
             </div>
@@ -29,7 +29,7 @@
 
     <script>
         $( "#submitForm" ).click(function() {
-            var f = document.getElementById('form');
+            var f = document.getElementById('#formRoom');
             f.action = 'conference.html';
             f.target='_self';
             f.submit();
