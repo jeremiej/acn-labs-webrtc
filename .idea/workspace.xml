@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="350fcdcf-d054-4a61-bf03-2cc9e62f7bfe" name="Default" comment="" />
+    <list default="true" id="350fcdcf-d054-4a61-bf03-2cc9e62f7bfe" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+    </list>
     <ignored path="acn-labs-webrtc.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -35,7 +37,7 @@
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="0" selection-start="535" selection-end="535" vertical-scroll-proportion="0.6220096" vertical-offset="0" max-vertical-offset="627">
+            <state line="27" column="4" selection-start="548" selection-end="548" vertical-scroll-proportion="0.64593303" vertical-offset="0" max-vertical-offset="627">
               <folding />
             </state>
           </provider>
@@ -376,7 +378,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="0" selection-start="535" selection-end="535" vertical-scroll-proportion="0.6220096" vertical-offset="0" max-vertical-offset="627">
+        <state line="27" column="4" selection-start="548" selection-end="548" vertical-scroll-proportion="0.64593303" vertical-offset="0" max-vertical-offset="627">
           <folding />
         </state>
       </provider>
