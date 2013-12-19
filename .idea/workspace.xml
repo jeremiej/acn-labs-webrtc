@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="350fcdcf-d054-4a61-bf03-2cc9e62f7bfe" name="Default" comment="" />
+    <list default="true" id="350fcdcf-d054-4a61-bf03-2cc9e62f7bfe" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/conference.html" afterPath="$PROJECT_DIR$/conference.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index - recorderjs.html" afterPath="$PROJECT_DIR$/index - recorderjs.html" />
+    </list>
     <ignored path="acn-labs-webrtc.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -44,7 +47,16 @@
       <file leaf-file-name="conference.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/conference.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="47" selection-start="266" selection-end="309" vertical-scroll-proportion="0.1465798" vertical-offset="0" max-vertical-offset="614">
+            <state line="120" column="35" selection-start="3764" selection-end="3764" vertical-scroll-proportion="0.95114005" vertical-offset="1216" max-vertical-offset="1920">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index - recorderjs.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index - recorderjs.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="118" column="35" selection-start="993" selection-end="3407" vertical-scroll-proportion="-54.875" vertical-offset="453" max-vertical-offset="1920">
               <folding />
             </state>
           </provider>
@@ -93,6 +105,8 @@
         <option value="$PROJECT_DIR$/style.css" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/main.js" />
+        <option value="$PROJECT_DIR$/index - recorderjs.html" />
+        <option value="$PROJECT_DIR$/conference.html" />
       </list>
     </option>
   </component>
@@ -407,9 +421,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/index - recorderjs.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="118" column="35" selection-start="993" selection-end="3407" vertical-scroll-proportion="-54.875" vertical-offset="453" max-vertical-offset="1920">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/conference.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="47" selection-start="266" selection-end="309" vertical-scroll-proportion="0.1465798" vertical-offset="0" max-vertical-offset="614">
+        <state line="120" column="35" selection-start="3764" selection-end="3764" vertical-scroll-proportion="0.95114005" vertical-offset="1216" max-vertical-offset="1920">
           <folding />
         </state>
       </provider>
