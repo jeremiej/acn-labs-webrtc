@@ -1,34 +1,28 @@
 <!DOCTYPE html>
 <html>
-<head>
+    <head>
+        <meta name='keywords' content='WebRTC, HTML5, JavaScript' />
+        <meta name='description' content='WebRTC Reference App' />
+        <meta name='viewport' content='width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1'>
 
-<meta name='keywords' content='WebRTC, HTML5, JavaScript' />
-<meta name='description' content='WebRTC Reference App' />
-<meta name='viewport' content='width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1'>
+        <script src="jquery-2.0.2.min.js"></script>
+        <script src="bootstrap.min.js"></script>
 
-<base target='_blank'>
+        <base target='_blank'>
 
-<title>WebRTC client</title>
+        <title>WebRTC client</title>
 
-<!-- <link rel='stylesheet' href='css/main.css' /> -->
+        <link href="bootstrap.min.css" rel="stylesheet" type="text/css">
+    </head>
 
-</head>
+    <body>
 
-<body>
+    <form class="navbar-form navbar-left" role="search">
+        <div class="form-group">
+            <input type="text" class="form-control" placeholder="Search">
+        </div>
+        <button type="submit" class="btn btn-default">Submit</button>
+    </form>
 
-<div id='container'>
-
-  <div id='videos'>
-    <video id='localVideo' autoplay muted></video>
-    <video id='remoteVideo' autoplay></video>
-  </div>
-
-</div>
-<script>
-    
-</script>
-<script src='/socket.io/socket.io.js'></script>
-<script src='js/main.js'></script>
-
-</body>
+    </body>
 </html>
