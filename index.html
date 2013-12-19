@@ -19,16 +19,20 @@
     <body>
 
     <div class="conferenceNameForm">
-        <form class="navbar-form navbar-left" action="conference.html" method="GET">
+        <form class="navbar-form navbar-left">
             <div class="form-group">
                 <input id="roomName" name="r" type="text" class="form-control" placeholder="Name the conference">
             </div>
-            <button type="submit" class="btn btn-primary openConference">Open it</button>
+            <button id="submitForm" type="button" class="btn btn-primary openConference">Open it</button>
         </form>
     </div>
 
     <script>
-
+        $( "#submitForm" ).click(function() {
+            f.action = 'conference.html';
+            f.target='_self';
+            f.submit();
+        });
     </script>
     </body>
 </html>
