@@ -10,7 +10,7 @@ console.log('http server listening on %d', process.env.PORT);
 
 var app = http.createServer(function (req, res) {
     file.serve(req, res);
-}).listen(process.env.PORT); // process.env.PORT
+}).listen(3030); // process.env.PORT
 
 var io = require('socket.io').listen(app);
 
