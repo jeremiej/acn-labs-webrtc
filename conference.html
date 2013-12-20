@@ -1,48 +1,51 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta name='keywords' content='WebRTC, HTML5, JavaScript' />
-    <meta name='description' content='WebRTC Reference App' />
-    <meta name='viewport' content='width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1'>
-    <script src="jquery-2.0.2.min.js"></script>
-    <base target='_blank'>
+    <head>
+        <meta name='keywords' content='WebRTC, HTML5, JavaScript' />
+        <meta name='description' content='WebRTC Reference App' />
+        <meta name='viewport' content='width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1'>
+        <script src="jquery-2.0.2.min.js"></script>
+        <base target='_blank'>
 
-    <title>WebRTC client</title>
+        <title>WebRTC client</title>
 
-    <!-- <link rel='stylesheet' href='css/main.css' /> -->
-    <style type='text/css'>
-        ul { list-style: none; }
-        #recordingslist audio { display: block; margin-bottom: 10px; }
-    </style>
-</head>
+        <!-- <link rel='stylesheet' href='css/main.css' /> -->
+        <style type='text/css'>
+            ul { list-style: none; }
+            #recordingslist audio { display: block; margin-bottom: 10px; }
+        </style>
+        <link href="style.css" rel="stylesheet" type="text/css">
+        <link href="bootstrap.min.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <div class="accentureLogoPage">
+            <img src="FS_logo_main.png">
+        </div>
+        <div id='container' class="videoContainer">
+            <div id='videos'>
+                <video id='localVideo' autoplay muted></video>
+                <video id='remoteVideo' autoplay></video>
+            </div>
+        </div>
+        <button onclick="startRecording(this);">record</button>
+        <button onclick="stopRecording(this);" disabled>stop</button>
 
-<body>
-<div id='container'>
-    <div id='videos'>
-        <video id='localVideo' autoplay muted></video>
-        <video id='remoteVideo' autoplay></video>
-    </div>
-    <button onclick="startRecording(this);">record</button>
-    <button onclick="stopRecording(this);" disabled>stop</button>
+        <h2>Recordings</h2>
+        <ul id="recordingslist"></ul>
 
-    <h2>Recordings</h2>
-    <ul id="recordingslist"></ul>
+        <h2>Log</h2>
+        <pre id="log"></pre>
+        <script>
+            var roomName = getURLParameter("r");
+            if(roomName){
 
-    <h2>Log</h2>
-    <pre id="log"></pre>
-</div>
-<script>
-    var roomName = getURLParameter("r");
-    if(roomName){
-
-    }
-    function getURLParameter(name) {
-        return decodeURIComponent((new RegExp('[?|&]' + name + '=' + '([^&;]+?)(&|#|;|$)').exec(location.search)||[,""])[1].replace(/\+/g, '%20'))||null
-    }
-</script>
-<script src='/socket.io/socket.io.js'></script>
-<script src='js/main.js'></script>
-
-<script src="recorder.js"></script>
-</body>
+            }
+            function getURLParameter(name) {
+                return decodeURIComponent((new RegExp('[?|&]' + name + '=' + '([^&;]+?)(&|#|;|$)').exec(location.search)||[,""])[1].replace(/\+/g, '%20'))||null
+            }
+        </script>
+        <script src='/socket.io/socket.io.js'></script>
+        <script src='js/main.js'></script>
+        <script src="recorder.js"></script>
+    </body>
 </html>

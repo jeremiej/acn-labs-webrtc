@@ -2,10 +2,31 @@
     position: fixed;
     top: 50%;
     left: 50%;
-    margin-top: -50px;
+    margin-top: -141px;
     margin-left: -138px;
+}
+
+.accentureLogoForm{
+    margin-bottom: 15px;
+    padding-left: 15px;
 }
 
 .openConference{
     margin-left: 15px;
+}
+
+.accentureLogoPage{
+    padding: 15px 0 50px 15px;
+    opacity:0.4;
+    background-image: url("backgroundGray2.png");
+}
+
+.videoContainer{
+    text-align: center;
+    background-color: #000000;
+}
+
+#video{
+    height: 180px;
+    padding-bottom: -5px;
 }
